@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip | Cagayan Valley</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="site-header__brand" href="index.html">Cagayan Valley</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item"><a class="site-nav__link" href="index.html">Home</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="destinations.html">Destinations</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="activities.html">Activities</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="history.html">History Culture</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="trip.html">Plan Your Trip</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="page-banner">
+        <h1 class="page-banner__title">Plan Your Trip</h1>
+    </section>
+
+    <main class="main-content">
+       
+        <section class="itinerary">
+            <h2 class="section-heading">3-Day Itinerary from Tuguegarao</h2>
+            <div class="itinerary__scroll">
+                <table class="itinerary__table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Morning</th>
+                        <th>Afternoon</th>
+                        <th>Evening</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Day 1</td>
+                        <td>Arrive in Tuguegarao, visit St. Peter Metropolitan Cathedral</td>
+                        <td>Callao Cave and the Pinacanauan River</td>
+                        <td>Dinner with pancit batil patong</td>
+                    </tr>
+                    <tr>
+                        <td>Day 2</td>
+                        <td>Drive to Santa Ana, boat to Palaui Island</td>
+                        <td>Hike to Cape Engaño Lighthouse, swim at Anguib Beach</td>
+                        <td>Seafood dinner in Santa Ana</td>
+                    </tr>
+                    <tr>
+                        <td>Day 3</td>
+                        <td>Walk along the Cagayan River in Tuguegarao</td>
+                        <td>Buy longganisa and souvenirs</td>
+                        <td>Depart</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <section class="trip-notes">
+            <div class="trip-notes__column">
+                <h2 class="section-heading">Travel Tips</h2>
+                <ul class="trip-notes__list">
+                    <li>Visit between March and May for the driest weather.</li>
+                    <li>Book boats to Palaui Island early in the morning, since waves get rougher later.</li>
+                    <li>Batanes is reached by plane from Manila or Tuguegarao. Book ahead.</li>
+                    <li>Bring cash. Many rural areas do not have ATMs.</li>
+                </ul>
+            </div>
+            <div class="trip-notes__column">
+                <h2 class="section-heading">Packing Checklist</h2>
+                <ul class="trip-notes__checklist">
+                    <li><label><input type="checkbox" name="pack-sunscreen"> Sunscreen and hat</label></li>
+                    <li><label><input type="checkbox" name="pack-shoes"> Walking shoes or sandals</label></li>
+                    <li><label><input type="checkbox" name="pack-rain"> Light rain jacket</label></li>
+                    <li><label><input type="checkbox" name="pack-swim"> Swimwear and towel</label></li>
+                    <li><label><input type="checkbox" name="pack-water"> Reusable water bottle</label></li>
+                    <li><label><input type="checkbox" name="pack-cash"> Cash and a copy of your ID</label></li>
+                </ul>
+            </div>
+        </section>
+
+       
+        <section class="contact">
+            <h2 class="section-heading">Ask Us a Question</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="full-name">Full Name</label>
+                    <input class="contact-form__input" type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="email">Email Address</label>
+                    <input class="contact-form__input" type="email" id="email" name="email" required>
+                </div>
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="visit-date">Planned Visit Date</label>
+                    <input class="contact-form__input" type="date" id="visit-date" name="visit-date">
+                </div>
+                <div class="contact-form__field">
+                    <label class="contact-form__label" for="travelers">Number of Travelers</label>
+                    <input class="contact-form__input" type="number" id="travelers" name="travelers" min="1" value="1">
+                </div>
+                <div class="contact-form__field contact-form__field--wide">
+                    <label class="contact-form__label" for="notes">Questions/Notes</label>
+                    <textarea class="contact-form__input" id="notes" name="notes" rows="5"></textarea>
+                </div>
+                <button class="contact-form__button" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+   
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__title">Discover Cagayan Valley, Region II</p>
+            <p class="site-footer__contact">Regional Tourism Office, Tuguegarao City, Cagayan</p>
+            <p class="site-footer__contact">Email: hello@cagayanvalley-travel.example | Phone: (63+) 000-000-0000</p>
+            <p class="site-footer__copy">2026 @ Cagayan Valley Tourism.</p>
+        </div>
+    </footer>
+</body>
+</html>
